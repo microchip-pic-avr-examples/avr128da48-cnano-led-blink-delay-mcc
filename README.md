@@ -36,7 +36,7 @@ The following MCC configurations must be made for this project:
 
 
 - Pin Manager
-    1. PC6 set as Digital output and named "LED".
+    1. PC6 set as Digital output and named "LED"
 
 <br><img src="images/Pin_Manager_settings.png" width="500">
 <br><img src="images/Pin_Module_settings.png" width="500">
