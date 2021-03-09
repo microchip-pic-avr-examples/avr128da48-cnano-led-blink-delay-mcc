@@ -4,8 +4,8 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128da48-cnano-led-blink-delay-mcc",
-        "version": "1.0.0 ",
-        "displayName": " AVR128DA48 LED blink with delay - MCC Example ",
+        "version": "1.0.1",
+        "displayName": " AVR128DA48 LED blink with delay - MCC Example",
         "projectName": "avr128da48-cnano-led-blink-delay-mcc",
         "shortDescription": "A program that blinks the LED with a period of 2 seconds with the use of the delay function.",
         "ide": {
