@@ -5,11 +5,11 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128da48-cnano-led-blink-delay-mcc",
         "version": "1.0.1",
-        "displayName": " AVR128DA48 LED blink with delay - MCC Example",
+        "displayName": "LED Blink Using Delay",
         "projectName": "avr128da48-cnano-led-blink-delay-mcc",
-        "shortDescription": "A program that blinks the LED with a period of 2 seconds with the use of the delay function.",
+        "shortDescription": "This repository provides an MPLAB X IDE project with an MCC (MPLAB Code Configurator) generated code example for blinking an LED with delay",
         "ide": {
-            "name": "MPLABX",
+            "name": "MPLAB X",
             "semverRange": ">=5.40"
         },
         "compiler": [
@@ -20,7 +20,7 @@
 		],
         "dfp": {
             "name": "AVR-Dx_DFP",
-            "semverRange": "1.2.52"
+            "semverRange": "^1.2.52"
         },
         "configurator": {
             "name": "MCC",
@@ -37,11 +37,18 @@
             }
         },
         "author": "Microchip",
+		"subcategories": [
+            [
+                "Peripherals",
+                "GPIO"
+            ]
+        ],
+        "peripherals": [
+            "GPIO"
+        ],
         "keywords": [
-            "mcc",
-            "led",
-			"blink",
-			"delay"
+            "LED blink",
+            "Delay"
         ],
 		"additionalData": {
 			"longDescription": {
