@@ -4,27 +4,27 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128da48-cnano-led-blink-delay-mcc",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "displayName": "LED Blink Using Delay",
         "projectName": "avr128da48-cnano-led-blink-delay-mcc",
         "shortDescription": "This repository provides an MPLAB X IDE project with an MCC (MPLAB Code Configurator) generated code example for blinking an LED with delay",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ">=5.40"
+            "semverRange": ">=5.40.0"
         },
         "compiler": [
-			{
-				"name": "XC8",
-				"semverRange": "^2.20.0"
-			}
-		],
+            {
+                "name": "XC8",
+                "semverRange": "^2.20.0"
+            }
+        ],
         "dfp": {
             "name": "AVR-Dx_DFP",
             "semverRange": "^1.2.52"
         },
         "configurator": {
             "name": "MCC",
-            "semverRange": ">=3.95"
+            "semverRange": ">=3.95.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -37,7 +37,7 @@
             }
         },
         "author": "Microchip",
-		"subcategories": [
+        "subcategories": [
             [
                 "Peripherals",
                 "GPIO"
@@ -50,16 +50,16 @@
             "LED blink",
             "Delay"
         ],
-		"additionalData": {
-			"longDescription": {
-				"metaDataVersion": "1.0.0",
-				"category": "com.microchip.portal.fileRef",
-				"content": {
-					"metaDataVersion": "1.0.0",
-					"fileName": "./README.md",
-					"mimeType": "text/markdown"
-				}
-			}
-		}
-	}
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
 }
